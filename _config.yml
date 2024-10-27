@@ -1,11 +1,10 @@
-title: My Tech Journey
+title: Deepanshu's Tech Blog
 description: Exploring computer science, projects, and hackathons
 author: Deepanshu
 theme: minima
 
 # Social links
-twitter_username: your_twitter_handle
-github_username:  deepanshu1422
+github_username: deepanshu1422
 linkedin_username: your_linkedin_profile
 
 # Build settings
@@ -19,7 +18,7 @@ url: "https://deepanshu1422.github.io"
 baseurl: "/blogs"
 
 # Post settings
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 future: true
 
 # Timezone setting
@@ -31,6 +30,10 @@ header_pages:
   - about.md
   - projects.md
   - contact.md
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
 
 # Exclude files from processing
 exclude:
