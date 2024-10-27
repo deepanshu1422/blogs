@@ -17,3 +17,5 @@ plugins:
 # Set URL for your GitHub Pages site (if needed)
 url: "https://deepanshu1422.github.io"
 baseurl: ""  # Leave it empty for root URL
+
+permalink: /:categories/:year/:month/:day/:title.html
