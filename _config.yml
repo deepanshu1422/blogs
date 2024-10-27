@@ -17,7 +17,8 @@ plugins:
 url: "https://deepanshu1422.github.io"
 baseurl: "/blogs"
 
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
+
 
 # Enable future posts
 future: true
