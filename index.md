@@ -3,6 +3,7 @@ layout: home
 title: Welcome to Deepanshu's Tech Blog
 ---
 
+<section class="all-posts">
   <h2>All Posts</h2>
   <ul class="post-list">
     {% for post in paginator.posts %}
@@ -17,14 +18,15 @@ title: Welcome to Deepanshu's Tech Blog
       </li>
     {% endfor %}
   </ul>
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}" class="btn">Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="btn">Next</a>
-    {% endif %}
-  </div>
+
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="btn">Previous</a>
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="btn">Next</a>
+      {% endif %}
+    </div>
+  {% endif %}
 </section>
-{% endif %}
-{% endraw %}
