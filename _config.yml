@@ -14,11 +14,14 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Set URL for your GitHub Pages site (if needed)
+# Set URL for your GitHub Pages site
 url: "https://deepanshu1422.github.io"
-baseurl: "/blogs"  # Change this to match your repository name
+baseurl: "/blogs"  # This is correct if your repository is named "blogs"
 
 permalink: /:year/:month/:day/:title/
 
-# Add this line to show future posts (if you want to keep the 2024 date)
-# future: true
+# Enable future posts
+future: true
+
+# Timezone setting (optional, but recommended)
+timezone: UTC
