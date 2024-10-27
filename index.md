@@ -10,7 +10,7 @@ Here you'll find all my latest thoughts, projects, and adventures in the world o
 ## Latest Posts
 
 {% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
 ## About Me
