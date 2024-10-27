@@ -1,19 +1,8 @@
 ---
-layout: default
-title: Welcome to My Blog
+layout: home
 ---
 
-# Welcome to My Blog! 🚀
-
-Here you'll find all my latest thoughts, projects, and adventures in the world of computer science and technology.
-
-## Latest Posts
-
-{% raw %}
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
-{% endraw %}
+Welcome to my blog! Here you'll find all my latest thoughts, projects, and adventures in the world of computer science and technology.
 
 ## About Me
 
