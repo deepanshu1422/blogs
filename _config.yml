@@ -1,34 +1,36 @@
-title: My Blog
-description: A blog powered by Jekyll and GitHub Pages.
+title: My Tech Journey
+description: Exploring computer science, projects, and hackathons
+author: Deepanshu
 theme: minima
 
-# Optional: Social links (edit as needed)
-social_links:
-  - name: GitHub
-    url: https://github.com/deepanshu1422
-    icon: github
+# Social links
+twitter_username: your_twitter_handle
+github_username:  deepanshu1422
+linkedin_username: your_linkedin_profile
 
-# Plugins (Optional)
+# Build settings
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Set URL for your GitHub Pages site
+# Site settings
 url: "https://deepanshu1422.github.io"
 baseurl: "/blogs"
 
+# Post settings
 permalink: /:categories/:title/
-
-
-# Enable future posts
 future: true
 
 # Timezone setting
 timezone: UTC
 
-# Add these lines
-markdown: kramdown
-highlighter: rouge
+# Custom settings
+show_excerpts: true
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md
 
 # Exclude files from processing
 exclude:
