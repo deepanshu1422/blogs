@@ -19,7 +19,7 @@ url: "https://deepanshu1422.github.io"
 baseurl: "/blogs"
 
 # Post settings
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 future: true
 
 # Timezone setting
