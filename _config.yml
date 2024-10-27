@@ -1,6 +1,7 @@
 title: My Blog
 description: A blog powered by Jekyll and GitHub Pages.
-theme: minima  # You can change the theme if needed
+theme: jekyll-theme-cayman
+
 
 # Optional: Social links (edit as needed)
 social_links:
