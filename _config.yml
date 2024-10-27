@@ -2,7 +2,6 @@ title: My Blog
 description: A blog powered by Jekyll and GitHub Pages.
 theme: jekyll-theme-cayman
 
-
 # Optional: Social links (edit as needed)
 social_links:
   - name: GitHub
@@ -16,12 +15,26 @@ plugins:
 
 # Set URL for your GitHub Pages site
 url: "https://deepanshu1422.github.io"
-baseurl: "/blogs"  # This is correct if your repository is named "blogs"
+baseurl: "/blogs"
 
 permalink: /:year/:month/:day/:title/
 
 # Enable future posts
 future: true
 
-# Timezone setting (optional, but recommended)
+# Timezone setting
 timezone: UTC
+
+# Add these lines
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
