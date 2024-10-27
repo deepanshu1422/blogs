@@ -12,6 +12,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Site settings
 url: "https://deepanshu1422.github.io"
